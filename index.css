@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.container{
+    display:flex;
+    padding: 10px;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.registor{
+    max-width: 700px;
+    width:100%;
+    background-color: #ffffff4a;
+    padding: 25px 30px;
+    flex-basis: 45%;
+    border-radius: 5px;
+}
+
+.registor .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.registor .title::after{
+    content: '';
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 25px;
+    height: 3px;
+    background-color: #9b59b6;
+
+}
+
+.registor form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease ;
+}
+.user-details .input-box input:focus, .user-details .input-box input:valid{
+    border-color:#9b59b6;
+}
+
+.img_details {
+    font-size: 20px;
+    width:100%;
+    margin: 20px 0px;
+}
+.img_details input{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.gender-details, .skill-details{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.gender-details .category,.skill-details .category{
+    display: flex;
+    margin-top: 14px;
+}
+.gender-details .category label,
+.skill-details .category label{
+    padding-right: 25px;
+    padding-left: 7px;
+}
+form .btn{
+    height: 45px;
+    margin: 45px 0;
+}
+
+
+form .btn input{
+    height: 100%;
+    width: 100%;
+    outline:none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background:linear-gradient(135deg, #71b7e6, #9b59b6);
+    font-size: 20px;
+    font-weight:500;
+    letter-spacing: 2px;
+
+}
+form .btn input:hover{
+    background:  black;
+    color: #fff;
+}
+
+/* -------student data display-------------- */
+
+.display{
+    flex-basis: 50%;
+    padding: 25px 30px;
+    max-width: 700px;
+    width: 100%;
+    background-color: #ffffff4a;
+    padding: 25px 30px;
+    flex-basis: 45%;
+    border-radius: 5px;
+    display: block;
+}
+.display .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.display .title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 25px;
+    height: 3px;
+    background-color: #9b59b6;
+
+}
+.registered_stu{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 12px 0;
+    border: none;
+    font-size: 20px;
+   
+}
+.registered_stu .stu_details{
+    /* border: 2px solid black; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin:5px;
+    background: #9440b541;
+    border-radius: 10px;
+    padding: 15px;
+}
+.registered_stu .stu_details .data{
+    /* border: 1px solid blue; */
+    width: fit-content;
+    height: fit-content;
+}
+.img_card img {
+    width: 150px;
+    height: 180px;
+    border-radius: 25%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+.over_flow{
+    /* border :1px solid red; */
+    margin: 25px;
+    display: block;
+    height: 80% ;
+    overflow: auto;
+}
+
+.btn_grp {
+    display: flex;
+    justify-content: space-between;
+}
+.btn_grp button{
+
+    width: 150px;;
+        outline: none;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        background: black;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 2px
+}
+.btn_grp button:hover {
+    background: #9b59b6;
+    color: black;
+}
+

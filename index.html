@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Student Registration</h1>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="registor">
+        <div class="title">Registration</div>
+
+        <form action="#" onsubmit="display()" id="stu_form">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details"> Full Name </span>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Full Name"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <span class="details"> Email Id</span>
+              <input
+                name="email"
+                type="email"
+                id="email"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <span class="details"> Phone Number </span>
+              <input
+                name="phone"
+                type="tel"
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                placeholder="xxx-xx-xxx"
+                id="phone"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <span class="details"> Profile Link </span>
+              <input
+                name="profile_link"
+                type="text"
+                id="pro_link"
+                placeholder="LinkedIn or Github or Website"
+                required
+              />
+            </div>
+
+            <div class="img_details">
+              <span class="details"> Image Link </span>
+              <input
+                type="file"
+                name="img_link"
+                accept="image/jpeg, image/png, image/jpg"
+                id="input_file"
+              />
+            </div>
+
+            <div class="skill-details">
+              <span class="details">Skills</span>
+              <div class="category">
+                <input type="checkbox" name="skill" value="HTML" /><label
+                  >HTML</label
+                >
+                <input type="checkbox" name="skill" value="CSS" /><label
+                  >CSS</label
+                >
+                <input type="checkbox" name="skill" value="Javascript" /><label
+                  >Javascript</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="gender-details">
+            <span class="gender-title">Gender</span>
+            <div class="category">
+              <input type="radio" name="gender" value="Male" />
+              <label for="male">Male</label>
+
+              <input type="radio" name="gender" value="Female" />
+              <label for="female">Female</label>
+
+              <input type="radio" name="gender" value="Prefer not to say" />
+              <label for="PNTS">Prefer not to say</label>
+            </div>
+          </div>
+          <div class="btn">
+            <input type="submit" value="Register" />
+          </div>
+        </form>
+      </div>
+
+      <!-- -------------display--------- -->
+
+      <div class="display">
+        <div class="title">Registered Students</div>
+        <div class="over_flow">
+          <div class="registered_stu">
+            <!-- <div class="stu_details">
+               <div class="data">
+                <p>name:</p>
+                <p>email</p>
+                <p>phn no.</p>
+              </div>
+              <div class="img_card">
+                <img src="images/profile.png" alt="" id="profile_pic" />
+              </div> 
+            </div> -->
+          </div>
+        </div>
+        <div class="btn_grp">
+          <button class="btnAllClear">All Clear</button>
+          <button class="delete">Delete</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
