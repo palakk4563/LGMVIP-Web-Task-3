@@ -23,4 +23,4 @@ Task-3 "Student Registration Website" @LetsGrowMore Web Development Internship
 
 ## Deployment
 Click below to visit Student Registration Website 
-<a href=""><img src="https://github.com/palakk4563/LGMVIP-Web-Task-3/assets/116274445/31a0872a-69a1-4527-be45-8eb77497bc80"></a>
+<a href="https://palakk4563.github.io/LGMVIP-Web-Task-3/"><img src="https://github.com/palakk4563/LGMVIP-Web-Task-3/assets/116274445/31ac7e45-1bd2-45f5-8013-da33476917e9"></a>
